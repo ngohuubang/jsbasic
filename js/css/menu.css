@@ -1,0 +1,25 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height:1;
+}
+
+.menu{
+    width:300px;
+    position:fixed; top:0; right:0; bottom:0;
+    /* box-shadow: rgb(101, 100, 100) -11px 2px 20px 0px; */
+    list-style: none;
+    transform: translateX(100%);
+    transition: transform 0.25s linear;
+}
+
+.menu.is-show{
+    transform: translateX(0);
+}
+
+.menu-link{
+    display:block;
+    padding: 10px 20px;
+    color: #333!important;
+    border-bottom: 1px solid #eee;
+}

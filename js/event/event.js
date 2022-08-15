@@ -1,0 +1,3 @@
+//các sự kiện : click, keydown, keyup, mouseover, mousemove, mouseleave, load, DOMContentLoaded,...
+//handler: funtion
+//capture, bubbling
